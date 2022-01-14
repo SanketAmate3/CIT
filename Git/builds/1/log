@@ -1,0 +1,22 @@
+Started by user [8mha:////4JKSAfoNJaUSOlq0aTA83OxYevOedaYon+XobFVmTj2qAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgY+/dLi1CL94sS87NQSY2MA2XluMsMAAAA=[0mSanketA
+Running as SYSTEM
+Building in workspace C:\Users\Saheb\.jenkins\workspace\Git
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/SanketAmate3/Test.git
+ > C:\Program Files\Git\bin\git.exe init C:\Users\Saheb\.jenkins\workspace\Git # timeout=10
+Fetching upstream changes from https://github.com/SanketAmate3/Test.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.34.1.windows.1'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/SanketAmate3/Test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/SanketAmate3/Test.git # timeout=10
+ > C:\Program Files\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 2135a9dabc9acc56504b82ddb74a2c2bb00dac45 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 2135a9dabc9acc56504b82ddb74a2c2bb00dac45 # timeout=10
+Commit message: "Merge pull request #1 from SanketAmate3/SanketAmate3-patch-1"
+First time build. Skipping changelog.
+Finished: SUCCESS

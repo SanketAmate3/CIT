@@ -1,0 +1,19 @@
+Started by timer
+Running as SYSTEM
+Building in workspace C:\Users\Saheb\.jenkins\workspace\Git
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\Users\Saheb\.jenkins\workspace\Git\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/SanketAmate3/Test.git # timeout=10
+Fetching upstream changes from https://github.com/SanketAmate3/Test.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.34.1.windows.1'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/SanketAmate3/Test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 2135a9dabc9acc56504b82ddb74a2c2bb00dac45 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 2135a9dabc9acc56504b82ddb74a2c2bb00dac45 # timeout=10
+Commit message: "Merge pull request #1 from SanketAmate3/SanketAmate3-patch-1"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 2135a9dabc9acc56504b82ddb74a2c2bb00dac45 # timeout=10
+Finished: SUCCESS
